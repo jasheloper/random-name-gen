@@ -42,6 +42,7 @@ addEventListener("message", (message) => {
 ```
 
 - If all checks out, the worker script will run and the result (the name) is sent back to the main file via a message.
+
 `postMessage(nameGen(firstNames))`
 
 <br>
