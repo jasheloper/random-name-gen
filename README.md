@@ -36,7 +36,7 @@ const worker = new Worker("name-worker.js");
 
 - The worker will listen for the message from the main script.
 
-- Once the message is received, a conditional is set up which checks for `command = generate`, and if this is the case, the worker script will run and the result (the name) is sent back to the main file via a message.
+- Once the message is received, a conditional is set up to check for `command = generate`, and if this is the case, the worker script will run and the result (the name) is sent back to the main file via a message.
 
 ```
 addEventListener("message", (message) => {
