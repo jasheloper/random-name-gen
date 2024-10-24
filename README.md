@@ -31,7 +31,7 @@ const worker = new Worker("name-worker.js");
 
 - The worker will listen for the message from the main script.
 
-- Once the message is received, a conditional is set up which checks for `generate` (?)
+- Once the message is received, a conditional is set up which checks for `generate`.
 
 ```
 addEventListener("message", (message) => {
