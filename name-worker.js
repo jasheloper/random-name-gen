@@ -1,8 +1,10 @@
 addEventListener("message", (message) => {
+  console.log("Message received from main: ", message.data);
   if(message.data.command === "generate") {
-     postMessage(nameGen(firstNames));
+    const generatedName = nameGen(firstNames);
+     console.log("Generated name:", generatedName);
+     postMessage(generatedName);
   }
-  console.log("Worker understands the assignment!");
 });
 
 const firstNames = [

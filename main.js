@@ -3,10 +3,9 @@ const button = document.querySelector("#generate");
 const output = document.querySelector("#output");
 
 button.addEventListener("click", () => {
-  worker.postMessage({
-    command: "generate",
-  });
-  console.log("Message sent to worker!");
+  const message = { command: "generate" };
+  console.log("Message sent to worker: ", message);
+  worker.postMessage(message);
 });
 
 worker.addEventListener("message", (message) => {
