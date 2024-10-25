@@ -54,7 +54,7 @@ addEventListener("message", (message) => {
 
 ## Finally
 
-`main.js` will listen for the message sent from the worker and this event will handle outputting the result in the browser.
+`main.js` will listen for the message sent back from the worker and this event will handle outputting the result in the browser.
 
 ```
 output.textContent = message.data;
