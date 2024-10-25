@@ -66,5 +66,5 @@ With this approach, the files are sending data back and forth using messages wit
 
 <br>
 
-![screenshot of log](log2.png)
+![screenshot of log](log3.png)
 *extra logging added to the code for learning purposes*
