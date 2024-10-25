@@ -47,8 +47,6 @@ addEventListener("message", (message) => {
 });
 ```
 
-`postMessage(generatedName)`
-
 
 <br>
 <br>
