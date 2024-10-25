@@ -62,14 +62,9 @@ output.textContent = message.data;
 
 <br>
 
-Ultimately, the files are sending data back and forth using messages.
+With this approach, the files are sending data back and forth using messages without having direct access to each other's variables.
 
 <br>
 
 ![screenshot of log](log.png)
 *extra logging added to the code for learning purposes*
-
-<br>
-
-*"The files never get direct access to each other's variables."* <br>
-*-MDN Web Docs*
