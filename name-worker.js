@@ -2,7 +2,7 @@ addEventListener("message", (message) => {
   console.log("Message received from main: ", message.data);
   if(message.data.command === "generate") {
     const generatedName = nameGen(firstNames);
-     console.log("Generated name:", generatedName);
+     console.log("Output from worker:", generatedName);
      postMessage(generatedName);
   }
 });
