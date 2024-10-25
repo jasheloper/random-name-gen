@@ -9,7 +9,7 @@ Notes below for learning purposes.
 
 ## Main file: `main.js`
 
-- The worker is created here using the `Worker()` constructor where the path containing the script is passed.
+- The worker is established here using the `Worker()` constructor where the path containing the script is passed.
 
 ```
 const worker = new Worker("name-worker.js");
